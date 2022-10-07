@@ -17,3 +17,8 @@ test('subtracts 2 numbers', () => {
 test('multiplies 2 numbers', () => {
     expect(multiply(1,1)).toBe(1)
 })
+
+//test to divides 2 numbers together and the expected answer is 5
+test('Divides 2 numbers', () => {
+    expect(multiply(10,2)).toBe(5)
+})
