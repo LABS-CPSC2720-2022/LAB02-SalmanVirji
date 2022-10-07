@@ -4,6 +4,7 @@ const add = require('./add')
 const subtract = require('./subtract')
 //multiply function
 const multiply = require('./multiply')
+const division = require('./division')
 
 //test to add 2 numbers together and the expected answer is 2
 test('Adds 2 numbers', () => {
@@ -20,5 +21,5 @@ test('multiplies 2 numbers', () => {
 
 //test to divides 2 numbers together and the expected answer is 5
 test('Divides 2 numbers', () => {
-    expect(multiply(10,2)).toBe(5)
+    expect(division(10,2)).toBe(5)
 })
